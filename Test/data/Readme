@@ -1,0 +1,17 @@
+ The input file format is: 
+    user name,movie name, movie type, movie tags, rating
+
+With: 
+ user name = Name of the user
+ movie name= the title of the movie
+ movie type = this is the movie type, i.e drama , comedy, etc
+ movie tags= these are all tags for the movie by the user, if there are several tags, there are separated by ";"
+ ratings = These are the ratings of the movies by users. There are adjectives that qualify the movie:
+     - very bad"=0
+     - "bad" = 1
+     - "average" = 2
+     - "good" = 3
+     - "very good" = 4
+     - "excellent" = 5
+     The rating can be a combination of two adjectives, i.e a rating of 0.5 is "very bad and bad".
+     Therefore in the file, you can find ratings with have two adjectives separated by ";", i.e you can find ratings such as "very good;excellent" which correspond to 4.5
